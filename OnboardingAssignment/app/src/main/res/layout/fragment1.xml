@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent" android:fillViewport="true">
+<LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="500dp" android:orientation="vertical" android:padding="28dp" android:gravity="center_vertical">
+<TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="01 / 03  ·  GET STARTED" android:textColor="@color/primary" android:textStyle="bold" android:textSize="13sp" />
+<TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Let's get to know you" android:textColor="@color/ink" android:textStyle="bold" android:textSize="32sp" android:layout_marginTop="14dp" />
+<TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Start by telling us your name." android:textColor="@color/muted" android:textSize="16sp" android:layout_marginTop="12dp" />
+<com.google.android.material.textfield.TextInputLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="Your full name" android:layout_marginTop="36dp"><com.google.android.material.textfield.TextInputEditText android:id="@+id/nameInput" android:layout_width="match_parent" android:layout_height="wrap_content" android:inputType="textPersonName" /></com.google.android.material.textfield.TextInputLayout>
+<com.google.android.material.button.MaterialButton android:id="@+id/toDetailsButton" android:layout_width="match_parent" android:layout_height="56dp" android:text="Continue" android:layout_marginTop="28dp" />
+</LinearLayout></ScrollView>

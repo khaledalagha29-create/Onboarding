@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent" android:fillViewport="true">
+<LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical" android:padding="28dp">
+<TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="02 / 03  ·  YOUR DETAILS" android:textColor="@color/primary" android:textStyle="bold" android:textSize="13sp" />
+<TextView android:id="@+id/detailsHeading" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Nice to meet you!" android:textColor="@color/ink" android:textStyle="bold" android:textSize="30sp" android:layout_marginTop="14dp" />
+<TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Tell us a little more about yourself." android:textColor="@color/muted" android:textSize="16sp" android:layout_marginTop="8dp" />
+<com.google.android.material.textfield.TextInputLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="Email address" android:layout_marginTop="30dp"><com.google.android.material.textfield.TextInputEditText android:id="@+id/emailInput" android:layout_width="match_parent" android:layout_height="wrap_content" android:inputType="textEmailAddress" /></com.google.android.material.textfield.TextInputLayout>
+<TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Gender" android:textSize="14sp" android:textColor="@color/ink" android:layout_marginTop="20dp" />
+<Spinner android:id="@+id/genderSpinner" android:layout_width="match_parent" android:layout_height="50dp" android:entries="@array/gender_options" />
+<com.google.android.material.textfield.TextInputLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="University (optional)" android:layout_marginTop="18dp"><com.google.android.material.textfield.TextInputEditText android:id="@+id/universityInput" android:layout_width="match_parent" android:layout_height="wrap_content" android:inputType="textCapWords" /></com.google.android.material.textfield.TextInputLayout>
+<com.google.android.material.button.MaterialButton android:id="@+id/detailsContinueButton" android:layout_width="match_parent" android:layout_height="56dp" android:text="Continue" android:layout_marginTop="32dp" />
+</LinearLayout></ScrollView>
